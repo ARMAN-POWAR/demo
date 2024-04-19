@@ -1,0 +1,82 @@
+@media only screen and (max-width: 768px) {
+    .header .navbar-nav {
+        font-size: 16px;
+    }
+
+    .header .navbar-brand {
+        font-size: 20px;
+    }
+
+    .search-icon {
+        font-size: 20px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 28px;
+        margin-bottom: 15px;
+    }
+
+    .carousel-caption p {
+        font-size: 16px;
+        margin-bottom: 15px;
+    }
+}
+
+
+@media only screen and (max-width: 480px) {
+    .header .navbar-nav {
+        font-size: 14px;
+    }
+
+    .header .navbar-brand {
+        font-size: 18px;
+    }
+
+    .search-icon {
+        font-size: 18px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 24px;
+        margin-bottom: 10px;
+    }
+
+    .carousel-caption p {
+        font-size: 14px;
+        margin-bottom: 10px;
+    }
+}
+@media only screen and (orientation: portrait) {
+    .carousel-item img {
+        object-fit: contain;
+    }
+}
+@media (max-width: 768px) {
+    
+    .popup-text-container {
+        flex-direction: column;
+    }
+
+    .popup-heading, .popup-text {
+        flex: 0 0 auto;
+        width: 100%;
+        text-align: center;
+    }
+
+    .separator-line {
+        display: none; 
+    }
+}
+@media (max-width: 768px) {
+            
+            .about-container {
+                flex-direction: column;
+            }
+
+            .about-image, .about-text {
+                flex: 0 0 auto;
+                width: 100%;
+                text-align: center;
+                margin: 0; 
+            }
+        }
